@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/BtnGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#D67E3A"
+        android:drawableLeft="@drawable/keyboard"
+        android:text="PIANISTE GUIDE"
+        android:textSize="40sp"
+        android:textStyle="italic|bold"/>
+    <Button
+        android:id="@+id/BtnAutonome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#303CB1"
+        android:textSize="40sp"
+        android:textStyle="italic|bold"
+        android:drawableLeft="@drawable/pianist"
+        android:text="PIANISTE AUTONOME" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BtnSalut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F60000"
+            android:text="Salut" />
+
+        <Button
+            android:id="@+id/deconnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:layout_marginLeft="100dp"
+            android:text="Deconnexion" />
+    </LinearLayout>
+
+</LinearLayout>

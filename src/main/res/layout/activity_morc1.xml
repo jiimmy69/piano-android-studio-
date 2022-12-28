@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#000"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/doo"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FDD835"
+            android:text="DO"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/re"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:text="RE"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/mi"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="MI"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/fa"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="FA"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/sol"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="SOL"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/la"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:text="LA"
+            android:textColor="#000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="65dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="530dp"
+        android:backgroundTint="#000"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="65dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="420dp"
+        android:backgroundTint="#000"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="65dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="310dp"
+        android:backgroundTint="#000"
+        android:orientation="horizontal" />
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="65dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="195dp"
+        android:backgroundTint="#000"
+        android:orientation="horizontal" />
+    <Button
+        android:id="@+id/Btn5"
+        android:layout_width="65dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#000"
+        android:orientation="horizontal" />
+
+
+
+
+</RelativeLayout>

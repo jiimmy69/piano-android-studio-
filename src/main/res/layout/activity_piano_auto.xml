@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#000"
+
+    >
+
+
+    <Button
+        android:id="@+id/morc1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Morceaux 1" />
+
+
+    <Button
+        android:id="@+id/morc2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="-2dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+
+        android:text="Morceaux 2" />
+
+    <Button
+        android:id="@+id/morc3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+
+        android:layout_marginTop="232dp"
+        android:text="Morceaux 3" />
+
+    <Button
+        android:id="@+id/morc4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="349dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+
+        android:layout_marginEnd="-2dp"
+        android:text="Morceaux 4" />
+
+    <Button
+        android:id="@+id/guide"
+        android:layout_width="192dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="54dp"
+        android:backgroundTint="@color/black"
+        android:text="Go to PianoGuide" />
+
+    <Button
+        android:id="@+id/choix"
+        android:layout_width="212dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@color/black"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/deco"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-1dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Deconnect" />
+</RelativeLayout>
